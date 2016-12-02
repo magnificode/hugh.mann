@@ -1,5 +1,6 @@
 botmsgs = [
-  'I will destroy @kblizeck'
+  'I will destroy @kblizeck',
+  'https://media.giphy.com/media/12pn1rQXt5O3xm/giphy.gif'
 ]
 
 module.exports = (robot) ->
