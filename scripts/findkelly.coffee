@@ -3,6 +3,6 @@ botmsgs = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /(!whereskelly)\b/i, (msg) ->
+  robot.hear /(!findkelly)\b/i, (msg) ->
     botmsg = msg.random botmsgs
     msg.send botmsg
